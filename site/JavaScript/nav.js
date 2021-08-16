@@ -14,5 +14,5 @@ const nav = document.querySelector(".navHTML");
 const navBar = document.createElement("nav");
 
 navBar.innerHTML =
-  '<div class="topnav" id="myTopnav"> <a href="/index.html" class="active"><i class="fa fa-fw fa-home"></i>Home</a> <a href="/news.html">News</a> <a href="#contact"><i class="fa fa-fw fa-envelope"></i></i>Contact</a> <a href="#about">About</a> <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a> </div><br><br>';
+  '<div class="topnav" id="myTopnav"> <a href="index.html" class="active"><i class="fa fa-fw fa-home"></i>Home</a> <a href="3-news.html">News</a> <a href="2-contact.html"><i class="fa fa-fw fa-envelope"></i></i>Contact</a> <a href="1-Menu.html"> Menu</a> <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <i class="fa fa-bars"></i> </a> </div><br><br>';
 nav.parentNode.replaceChild(navBar, nav);
