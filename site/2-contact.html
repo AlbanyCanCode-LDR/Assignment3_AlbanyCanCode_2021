@@ -36,6 +36,8 @@
     <!-- normalize.css goes below -->
     <link rel="stylesheet" href="/Assignment3_AlbanyCanCode_2021/site/css/normalize.css">
 
+    <link rel="stylesheet" href="/Assignment3_AlbanyCanCode_2021/site/css/contact.css">
+
     <!-- Favicon Link Content -->
 
     <!-- End of Favicon Link Content -->
@@ -54,27 +56,38 @@
 
 
     <main>
-        <h1>Lorem</h1>
+        <div class="container">
+            <form >
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-        <h2>Lorem</h2>
-        <article>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit facilis autem, eveniet cumque, reiciendis
-                doloremque illum, doloribus fugiat recusandae harum laudantium nulla obcaecati architecto minus! Magni
-                quis cumque molestias impedit.</p>
-        </article>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-        <h2>lorem</h2>
-        <article>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, sed quasi? Numquam dignissimos sit
-                at cum ex debitis ab illum ipsa natus unde sequi, quasi temporibus similique recusandae excepturi sint.
-            </p>
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+
     </main>
+
+    <script type="text/javascript" src="/Assignment3_AlbanyCanCode_2021/site/JavaScript/contact.js"></script>
 
     <footer>
         <iframe src="footer/footer.html" height="50" width="100%" title="Iframe Example"></iframe>
     </footer>
 
-    <!-- <script type="text/javascript" src=""></script> index.js goes between quotes "" -->
+
 </body>
 
 </html>
