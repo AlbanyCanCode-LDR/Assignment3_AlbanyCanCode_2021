@@ -1,9 +1,10 @@
 body {
   margin: 10px;
+  background-color: green;
 }
 
 p {
-  font-family: ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 
 h1 {
