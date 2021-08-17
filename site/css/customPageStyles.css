@@ -2,12 +2,11 @@
 }
 
 .menuHeader {
-  color:rgb(255, 255, 255);
-  text-decoration:underline;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
   text-align: center;
   border-style: solid;
   border-color: white;
-  
 }
 
 .menuItemBox {
@@ -71,14 +70,13 @@
   width: 90%;
 }
 
+footer {
+  position: sticky;
 
-footer{
-  position:sticky;
-  
   width: 100%;
 }
 
-iframe{
+iframe {
   background-color: white;
   bottom: 10px;
 }

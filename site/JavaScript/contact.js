@@ -1,1 +1,7 @@
-document.write('<h1 class=" contactPageDocWrite"> Thank you for visiting the contact page </h1>');
+let date = new Date();
+function dateFunction() {
+  document.getElementById("date").innerHTML =
+    "Your Message was sent on " + date;
+}
+
+dateFunction();
