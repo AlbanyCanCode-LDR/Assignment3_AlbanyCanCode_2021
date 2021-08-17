@@ -5,6 +5,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.theHeader {
+  width:100%;
+  height: 300px;
+  object-fit: contain;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
   overflow: hidden; /* originally hidden */
@@ -76,4 +82,15 @@ body {
 .loPorto {
   text-align: center;
   color: red;
+}
+
+.operatingHours {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+main{
+padding: 10%;
+padding-top: 0%;
 }
